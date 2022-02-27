@@ -1,0 +1,79 @@
+body{
+    background-image: linear-gradient(90deg,cyan,whitesmoke);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10%;
+}
+
+.box
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    width: 100%;
+    max-width: 420px;
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 10px grey;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+
+form input{
+    font-family: inherit;
+    font-size: 1.2rem;
+    border-radius: .5rem;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+
+.task-text
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.box2
+{
+   display: flex;
+   flex-direction: column;
+}
+.box2 p{
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    margin: 1rem;
+    color: grey;
+}
+input 
+{
+    margin: 0 0.3rem;
+    padding: 0.3rem;
+
+}
+
+h1{
+    text-transform: uppercase;
+    color: royalblue;
+}
+button{
+    font-size: 1.3rem;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    border: none;
+    background-color: grey;
+    cursor: pointer;
+    color: white;
+}
+button:hover{
+    background-color: royalblue;
+}
+input#check
+{
+  transform: scale(2);
+}
